@@ -1,0 +1,17 @@
+{
+  "name": "@travelworld/flyai-broker",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Server-only HTTP broker for Travelworld's FlyAI enrichment.",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "check": "node --check server.mjs"
+  },
+  "dependencies": {
+    "@fly-ai/flyai-cli": "1.0.16"
+  }
+}
